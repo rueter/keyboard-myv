@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.myv
     bundleName: *bundleName
     icon: images/myv-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/myv-icon.png
+    codeSignId: "my-test-installer"
