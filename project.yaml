@@ -1,12 +1,12 @@
-internalName: myv_keyboard
+internalName: myv_ru-win
 
 locales:
   en:
-    name: &bundleName "Erzya Keyboards"
-    description: "Mobile OS keyboards for the Erzya language from the Divvun group at UiT."
+    name: &bundleName "Erzya Mordvin Keyboards"
+    description: "Mobile OS keyboards for the Erzya Mordvin language from the Divvun group at UiT."
   nb:
-    name: "Erzya tastatur"
-    description: "Mobiltastatur for Erzya fra Divvun-gruppa."
+    name: "Erzya Mordvin tastatur"
+    description: "Mobiltastatur for Erzya Mordvin fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
@@ -14,7 +14,7 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [myv]
+layouts: [myv-mob, myv-mac, myv-win]
 
 version: 1.0
 build: 1
@@ -25,22 +25,30 @@ targets:
     icon: images/myv-icon.pdf
     keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
     keyAlias: sami_keyboard
+    version: "1.0.0"
+    build: "1"
 
   ios: &AppleID
-    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
+    codeSignId: "2K5J2584NX"
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.myv
     bundleName: *bundleName
     icon: images/myv-icon.png
+    version: "1.0.0"
+    build: "1"
 
   osx:
     <<: *AppleID
     icon: images/myv-keyboard-menu-icon.png
     version: 0.1.0
     resources: doc
+    version: "1.0.0"
+    build: "1"
 
   win:
     appName: *bundleName
     version: 0.1.0
     url: "http://divvun.no"
-    uuid: "replace-with-real-uuid-one-for-each-language"
+    uuid: "BF2342BD-688E-4AC8-890A-F8F57FB54265"
+    version: "1.0.0"
+    build: "1"
