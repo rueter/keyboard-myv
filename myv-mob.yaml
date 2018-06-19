@@ -25,20 +25,22 @@ modes:
 # mobile keyboards properties:
 longpress:
   А: Ӓ
-  Е: Є Ѣ
+  Э: Є
+  Е: Ѣ
   З: Ѕ
   И: І
   Н: Ҥ
   У: Ў
-  Ч: Џ
+  Ц: Џ
 
   а: ӓ
-  е: є ѣ
+  э: є
+  е: ѣ
   з: ѕ
   и: і
   н: ҥ
   у: ў
-  ч: џ
+  ц: џ
 
 
 styles:
