@@ -4,9 +4,6 @@ locales:
   en:
     name: &bundleName "Erzya Mordvin Keyboards"
     description: "Mobile OS keyboards for the Erzya Mordvin language from the Divvun group at UiT."
-  nb:
-    name: "Erzya Mordvin tastatur"
-    description: "Mobiltastatur for Erzya Mordvin fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
