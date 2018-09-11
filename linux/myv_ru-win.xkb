@@ -21,8 +21,8 @@ xkb_symbols "basic" {
     key <AD02> { [ Cyrillic_tse, Cyrillic_TSE, Cyrillic_dzhe, Cyrillic_DZHE ] };
     key <AD03> { [ Cyrillic_u, Cyrillic_U, Macedonia_kje, Macedonia_KJE ] };
     key <AD04> { [ Cyrillic_ka, Cyrillic_KA, registered, registered ] };
-    key <AD05> { [ Cyrillic_ie, Cyrillic_IE,     dagger,     dagger ] };
-    key <AD06> { [ Cyrillic_en, Cyrillic_EN, Cyrillic_nje, Cyrillic_NJE ] };
+    key <AD05> { [ Cyrillic_ie, Cyrillic_IE,      U0463,      U0462 ] };
+    key <AD06> { [ Cyrillic_en, Cyrillic_EN,      U04A5,      U04A4 ] };
     key <AD07> { [ Cyrillic_ghe, Cyrillic_GHE, Macedonia_gje, Macedonia_GJE ] };
     key <AD08> { [ Cyrillic_sha, Cyrillic_SHA, Macedonia_dse, Macedonia_DSE ] };
     key <AD09> { [ Cyrillic_shcha, Cyrillic_SHCHA, Byelorussian_shortu, Byelorussian_SHORTU ] };
@@ -32,7 +32,7 @@ xkb_symbols "basic" {
     key <AC01> { [ Cyrillic_ef, Cyrillic_EF,   function,   function ] };
     key <AC02> { [ Cyrillic_yeru, Cyrillic_YERU, Cyrillic_yeru, Cyrillic_YERU ] };
     key <AC03> { [ Cyrillic_ve, Cyrillic_VE, Serbian_tshe, Serbian_TSHE ] };
-    key <AC04> { [ Cyrillic_a, Cyrillic_A,   division,   division ] };
+    key <AC04> { [ Cyrillic_a, Cyrillic_A,      U04D3,      U04D2 ] };
     key <AC05> { [ Cyrillic_pe, Cyrillic_PE,  copyright,  copyright ] };
     key <AC06> { [ Cyrillic_er, Cyrillic_ER, braceright,  braceleft ] };
     key <AC07> { [ Cyrillic_o, Cyrillic_O,     degree, enfilledcircbullet ] };
