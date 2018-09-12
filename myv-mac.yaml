@@ -38,14 +38,14 @@ modes:
   # opt+caps?
   iso-alt: |
     § ! @ # $ % ^ & * ( ) – »
-    ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ъ
-    ƒ ы ћ ӓ © } ° љ ∆ … э ё
+    ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө
+    ѳ ѵ ѷ ӓ © } ° љ … җ є ә
     ] ђ ≈ ≠ µ и ™ ~ ≤ ≥ “
   # opt+shift+caps?
   iso-alt+shift: |
     ± | " £ € ∞ ¬ ¶ √ ' ` — «
-    Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ъ
-    ƒ Ы Ћ Ӓ © { • Љ ∆ … Э Ё
+    Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ө
+    Ѳ Ѵ Ѷ Ӓ © { • Љ … Җ Є Ә
     [ Ђ ≈ ≠ µ И ™ ~ < > „
   # ctrlL+cmd?+opt?+caps? ctrlL+shift+cmd?+optL?+caps? ctrlL+opt+cmd?+caps?+shiftL?
   iso-ctrl: |
