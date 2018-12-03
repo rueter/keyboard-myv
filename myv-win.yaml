@@ -12,10 +12,8 @@ supportedTargets: [win, x11, svg]
 
 targets:
   win:
-    locale: myv-Latn
+    locale: myv-Cyrl
     languageName: "Эрзянь кель"
-#    locale: myv-Cyrl # Cyrl changed to Latn due to a bug that prevents
-                      # non-admin users from enabling the keyboard.
 
 modes:
   # default
