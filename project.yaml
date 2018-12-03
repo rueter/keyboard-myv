@@ -38,7 +38,7 @@ targets:
     <<: *AppleID
     icon: images/myv-keyboard-menu-icon.png
     resources: doc
-    version: "1.0.1"
+    version: "1.0.2"
     build: "1"
 
   win:
